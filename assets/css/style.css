@@ -1,0 +1,25 @@
+.headContainer{
+    border:1px solid black;
+    display:flex;
+    width:100%;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo
+{
+    display:flex;
+    border:1px solid black;
+    width:20%;
+
+}
+.menu
+{
+    border:1px solid black;
+    width: 20%;
+    display:flex;
+}
+.underMenu{
+    border:solid blue 1px;
+}
