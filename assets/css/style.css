@@ -1,25 +1,165 @@
-.headContainer{
-    border:1px solid black;
+.logo{
     display:flex;
-    width:100%;
+    border:black solid 1px;
+    width:70%;
+}
+.logo>p,img{
+    border:black solid 2px;
+    display:block;
+}
+.headContainerSection{
+    display:flex;
+    border:black solid 2px;
+    width: 20%;
+    margin:auto;
+
+}
+ 
+.menu{
+    width:20%;
+    border: red solid 2px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:5px;
+    background-color:rgb(73,65,109,0.2)
+}
+
+
+
+.headContainer{
+    display:flex;
+    flex-direction:row;
+    border:yellow 2px solid;
+    background-color: rgb(217, 213, 235,0.2)
+   
+
+}
+
+h1,p,h2{
+    text-align:center;
+}
+
+.scrolling{
+    border:black solid 1px;
+    width:10%;
+    padding:20px;
+    margin: 55px;
+    background-color: rgb(73,65,109,0.2)
+   
+}
+
+
+.navigation{
+    list-style: none;
+    border:black solid 1px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    
+
+}
+
+li{
+    border:black solid 3px;
+    padding:10px;
+    margin:40px;
+}
+
+nav{
+    border:black solid 2px;
+    padding:0px;
+    margin:0px;
+    background-color:violet;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.presentationBank{
+    border:solid black 2px;
+    width:95%;
+    margin:auto;
+    display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+margin-top:20px;
+    
+}
+
+
+.centerPage{
+    
+    border:black solid 2px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+}
+.news{
+    border:black solid 2px;
+    display:flex;
     flex-direction:row;
     justify-content:center;
     align-items:center;
 }
 
-.logo
-{
+article{
+    border:red 2px solid;
+    margin:10px;
+    padding:15px;
+}
+
+.advice{
+    border:green 2px solid;
+}
+
+
+.valors{
     display:flex;
-    border:1px solid black;
-    width:20%;
+    flex-direction:column;
+    border:solid black solid;
+}
+.valorsPart1{
+    border:black solid 1px;
+    margin:20px;
+}
+
+
+.valorsPart2{
+    width:60%;
+    border: red solid 2px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding:5px;
+    
+}
+.underValors>img{
+    display:block;
+}
+.underValors{
+border:red solid 1px;
+width:40%;
+margin:auto;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 
 }
-.menu
-{
-    border:1px solid black;
-    width: 20%;
-    display:flex;
-}
-.underMenu{
-    border:solid blue 1px;
+
+ul{
+    list-style:none;
 }
