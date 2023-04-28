@@ -1,7 +1,13 @@
+body{
+    background-color: #f2f2f2;
+}
+
+
 .logo{
     display:flex;
     border:black solid 1px;
     width:70%;
+    
 }
 .logo>p,img{
     border:black solid 2px;
@@ -12,6 +18,7 @@
     border:black solid 2px;
     width: 20%;
     margin:auto;
+   
 
 }
  
@@ -24,16 +31,19 @@
     justify-content:center;
     align-items:center;
     padding:5px;
-    background-color:rgb(73,65,109,0.2)
-}
+    background-color:rgb(193, 224, 255)
 
+}
+.menu:hover{
+    background-color:rgb(128, 128, 195);
+}
 
 
 .headContainer{
     display:flex;
     flex-direction:row;
     border:yellow 2px solid;
-    background-color: rgb(217, 213, 235,0.2)
+    background-color:rgba(46, 129, 213, 0.8);
    
 
 }
@@ -47,7 +57,7 @@ h1,p,h2{
     width:10%;
     padding:20px;
     margin: 55px;
-    background-color: rgb(73,65,109,0.2)
+    background-color:rgb(193, 224, 255)
    
 }
 
@@ -60,20 +70,25 @@ h1,p,h2{
     align-items:center;
     justify-content:center;
     
+    
 
 }
 
-li{
+.navigationLi{
     border:black solid 3px;
     padding:10px;
-    margin:40px;
+    margin:40px; 
 }
 
 nav{
     border:black solid 2px;
     padding:0px;
     margin:0px;
-    background-color:violet;
+   
+}
+#search{
+    
+    padding-left:120px;
 }
 
 a{
@@ -162,4 +177,48 @@ align-items:center;
 
 ul{
     list-style:none;
+    
 }
+
+.footerSection1{
+border:red solid 1px;
+width:100%;
+margin:10px;
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+
+}
+
+.footerSection2{
+    border:2px solid green;
+    margin:60px;
+    padding: 20px;
+    width:80%;
+}
+
+.footerSection2>ul>li{
+    margin:2px;
+    padding:5px;
+   
+}
+.footerSection2>p{
+    text-align:center;
+}
+.footerSection3{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.footerSection3>p{
+    margin:60px;
+}
+
+.logo>img{
+    background-color:#f2f2f2;
+}
+
+
