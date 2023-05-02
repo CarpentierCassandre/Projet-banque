@@ -13,9 +13,8 @@
 
             <div class="logo">
 
-                
-
-                <img src="assets/img/lamanubank.png" alt="logo de la manu Bank" width="200px"/>
+                <img src="assets/img/Logolamanubank.png" alt="logo de la manu Bank"height="100px"/>
+                <h1>La Manu Bank !</h1>
                 
             </div>
 
@@ -25,27 +24,27 @@
             
             <div class="headContainerSection">
 
-                <div class="menu">
+                <div class="containerColumnCenter" id="colorHover1">
 
                     <p> Connexion</p>
                 
-                   <a href="#"> <img src="assets/img/inscription.png" alt="logo connexion"width=40px> </a>
+                   <a href="#"> <img src="assets/img/inscription.png" alt="logo connexion"width=30px> </a>
                     
                     
 
                 </div>  
 
-                <div class="menu">
+                <div class="containerColumnCenter" id="colorHover2">
 
                     <p>Inscription</p>
-                   <a href="#"> <img src="assets/img/formulaire.png" width=40px alt="formulaire"></a>
+                   <a href="#"> <img src="assets/img/formulaire.png" width=30px alt="formulaire"></a>
                         
                 </div>
 
-                <div class="menu">
+                <div class="containerColumnCenter"id="colorHover3">
 
                     <p>Contact</p>
-                    <a href="#"><img src="assets/img/contact.png" alt="logo contact"width="40px"/></a>
+                    <a href="#"><img src="assets/img/contact.png" alt="logo contact"width="30px"/></a>
                     
                 </div>
                 
@@ -56,32 +55,32 @@
     </div>
 
         <nav>
-            <ul class="navigation">
-                <a href="#"><li class="navigationLi">Assurance</li></a>
-                <a href="#"><li class="navigationLi">Simulateur</li></a>
-                <a href="#"><li class="navigationLi">Informations</li></a>
-                <a href="#"><li class="navigationLi">autre catégorie</li></a>
-                
-            </ul>
-
-            <p> <label for="search">Recherche </label> <input type="search" name="search"id="search"/> </li></p>
+            <div>
+                <a href="#">Assurance</a>
+                <a href="#">Simulateur</a>
+                <a href="#">Informations</a>
+                <a href="#">navigation</a>
+                <a href="#">    autre catégorie</a>
+                </div>
+            <div><p> <label for="search">Recherche </label> <input type="search" name="search"id="search"/> </li></p>
+                </div>
         </nav>    
     </header>
 
     <main>
         <section>
-            <div class="presentationBank">
+            <div id="presentationBank" class="containerColumnCenter">
                 
                 <p>
                     La Manu, une banque <strong>fiable et sûre</strong> ! 
                 </p>
                 
-                <img src="assets/img/image_fong.jpg" alt="image d'une femme " width="1200px"/>
+                <img src="assets/img/image_fong.jpg" alt="image d'une femme " width="1700px"/>
                 
                 
             </div>
         </section>
-        <div class="centerPage">
+        <div id="centerPage" class="containerRowCenter">
             <section class="advice">
                 <h2>Nos conseils</h2>
                 
@@ -118,7 +117,7 @@ Si votre banque propose un chatbot, il peut vous permettre à tout moment de pos
 Vous le voyez apparaître sous la forme d’un personnage animé ou d’une zone « posez-nous vos questions ». Par son système d’entonnoir et de mots clés, il retrouve la réponse à votre question avec un minimum de saisie. Parfois, il permet même l’échange de documents. C’est un outil de réponse instantané et performant…
 </p>
             </section>    
-            <section class="news">
+            <section class="containerRowCenter" id="news">
                 <article><a href="#">
                     <img src="assets/img/vente_flash.jpg" alt="image homme souriant" width="250px">
 
@@ -142,21 +141,22 @@ Vous le voyez apparaître sous la forme d’un personnage animé ou d’une zone
             <section class="valors">
             <div class="valorsPart1">
 
-                <p>Nos valeurs</p>
+                <p class="borderRadius" id="ourValors">Nos valeurs</p>
             </div>    
-            <div class="valorsPart2">
+            <div class="containerRowCenter">
                 
-                    <div class="underValors">
-                        <p>Une banque qui rend votre épargne utile</p>               
+                    <div  class="containerColumnCenter" id="boxShadow1";
+                    >
+                        <p><strong>Une banque qui rend votre épargne utile</strong></p>               
                         <img src="assets/img/epargne.png" alt="logo épargne" width=50px>
                     </div>
-                    <div class="underValors">
-                        <p>Une banque qui s'engage près de chez vous</p>
+                    <div class="containerColumnCenter" id="boxShadow2">
+                        <p><strong>Une banque près de chez vous</strong></p>
                         <img src="assets/img/epargne.png" alt="logo éparnge"
                         width=50px/>
                     </div>
-                    <div class="underValors">
-                        <p>Une banque qui dynamise l'école locale</p>
+                    <div class="containerColumnCenter" id="boxShadow3">
+                        <p><strong>Une banque qui dynamise l'école locale</strong></p>
                         <img src="assets/img/epargne.png" alt="logo épargne" width="50px">
                     </div>
 
@@ -165,12 +165,14 @@ Vous le voyez apparaître sous la forme d’un personnage animé ou d’une zone
     </main>
     
       <footer>
-        <div class="footerSection1">
+        <div class= "containerRowCenter"id="footerSection1">
 
             <img src="assets/img/Logolamanubank.png" alt="logo banque"width="150px"/>
             <div class="footerSection2">
-                <p>Nos offres:</p>
-                <ul  >
+                <ul>
+
+                
+                <li> Nos offres</li>
                     <li> Gestion Privée</li>
                     <li> Professionnels</li>
                     <li>Entreprises</li>
@@ -181,8 +183,9 @@ Vous le voyez apparaître sous la forme d’un personnage animé ou d’une zone
                 </ul>
             </div>
             <div class="footerSection2">
-                <p>Votre banque</p>
+                
                 <ul >
+                    <li>Votre Banque</li>
                     <li>Votre banque et vous</li>
                     <li>Qui sommes-nous ?</li>
                      <li>Le Pacte Sportif</li>
@@ -192,11 +195,11 @@ Vous le voyez apparaître sous la forme d’un personnage animé ou d’une zone
                     
                 </ul>
             </div>
-            <div class="footerSection2"><p> Les réseaux</p></div>
+            <div class="containerRowCenter" id="logoInfluence">  <img src="assets/img/logofb.png" alt="Logo facebook" /> <img src="assets/img/logotiktok.png" alt= "logo tiktok"> <img src="assets/img/logoinsta.jpg" alt=" logo insta"/></div>
         </div> 
         
         
-        <div class="footerSection3">
+        <div class="containerRowCenter"id="footerSection3">
             <p>Garantie des Dépôts</p>
             <p>Protection des données personnelles</p>
             <p>Gestion des cookies</p>
@@ -208,6 +211,8 @@ Vous le voyez apparaître sous la forme d’un personnage animé ou d’une zone
         </div>
 
     </footer>
+  
+    
 </body>
 </html>
 
